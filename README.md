@@ -16,6 +16,13 @@ Next up was to set the study area to Athens, Greece, zooming to the GRC_Postcode
 Now it starts the 3 steps process of creating a Heat Risk Index:
 The first step is land surface temperature. The Multispectral Landsat layer holds decades  of information for many visualization types, including thermal energy emitted from the earth's surface in two distinct bands. I went the layer properties on the Processing Templates tab and changed it to Band 10 Surface Temperature in Celsius. Went to the Mosaic tab of the layer properties menu and chose the mean option for the mosaic operator. After I went to the Definition Query tab and put in a query statement _Where Cloud Cover is less than or equal to 0.05_. This causes all images with more than 5 percent of cloud cover since the imagery layer contains cloud and cloud shadows that could interfere with the analysis. I then went to the Symbology layer after to change the color scheme and a few settings to symboloize the layer to visualize land surface temperature properly. Areas with cool areas are dark purple while hotter temperature are shown as orange and yellow.
 
+Next up is to define the study area for the land surface temperature input variable. I filtered by extent of the Athens_Postcodes layer with the Multispetral Layer on, then I used the Copy Raster tool to create a new layer based on Athens with the correct settings. The last part is summarizing the temperature values in a table using the Zonal Statistics As Table to create a table with the High Surface Temperature by Postcodes.
+
+
+
+
+
+
 Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
 
 ## Optimizations
