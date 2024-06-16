@@ -9,11 +9,12 @@ An interactive map illustrating the intensity of heat across various areas in At
 
 **Tech used:** ArcGIS Pro, ArcGIS Online, ArcGIS Living Atlas of the World, ArcGIS Spatial Analyst extension
 
-The first step is to get the land surface temperature through a Multispectral Landsat layer. It was received from ArcGIS Living Atlas.
+The first step is to get the land surface temperature through a Multispectral Landsat imagery layer. It was received from ArcGIS Living Atlas.
 
 Next up was to set the study area to Athens, Greece, zooming to the GRC_Postcodes3 layer, going into the attriubtes layer and filter out postcodes that can skew the data and removed them accordingly. I then used the Copy Features tool to reproduce a copy of the remaining postcodes into a new layer called Athens_Postcodes.
 
-
+Now it starts the 3 steps process of creating a Heat Risk Index:
+The first step is land surface temperature. The Multispectral Landsat layer holds decades  of information for many visualization types, including thermal energy emitted from the earth's surface in two distinct bands. I went the layer properties on the Processing Templates tab and changed it to Band 10 Surface Temperature in Celsius. Went to the Mosaic tab of the layer properties menu and chose the mean option for the mosaic operator. After I went to the Definition Query tab and put in a query statement _Where Cloud Cover is less than or equal to 0.05_. This causes all images with more than 5 percent of cloud cover since the imagery layer contains cloud and cloud shadows that could interfere with the analysis. I then went to the Symbology layer after to change the color scheme and a few settings to symboloize the layer to visualize land surface temperature properly. Areas with cool areas are dark purple while hotter temperature are shown as orange and yellow.
 
 Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
 
