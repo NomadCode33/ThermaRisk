@@ -1,5 +1,5 @@
-# Athens-Heat-Risk-Index
-Write a short sentence or two about this project and what it does. Be sure to include a link and a screenshot (we're front end devs so we can actually see our work!).
+# Athens Heat Risk Index
+An interactive map illustrating the intensity of heat across various areas in Athens, Greece. Designed to aid in implementing preventative measures for cooling the city and enhancing its resilience.
 
 **Link to project:** http://recruiters-love-seeing-live-demos.com/
 
@@ -7,7 +7,13 @@ Write a short sentence or two about this project and what it does. Be sure to in
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, Framework of choice
+**Tech used:** ArcGIS Pro, ArcGIS Online, ArcGIS Living Atlas of the World, ArcGIS Spatial Analyst extension
+
+The first step is to get the land surface temperature through a Multispectral Landsat layer. It was received from ArcGIS Living Atlas.
+
+Next up was to set the study area to Athens, Greece, zooming to the GRC_Postcodes3 layer, going into the attriubtes layer and filter out postcodes that can skew the data and removed them accordingly. I then used the Copy Features tool to reproduce a copy of the remaining postcodes into a new layer called Athens_Postcodes.
+
+
 
 Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
 
