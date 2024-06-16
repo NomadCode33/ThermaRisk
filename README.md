@@ -18,7 +18,7 @@ The first step is land surface temperature. The Multispectral Landsat layer hold
 
 Next up is to define the study area for the land surface temperature input variable. I filtered by extent of the Athens_Postcodes layer with the Multispetral Layer on, then I used the Copy Raster tool to create a new layer based on Athens with the correct settings. The last part is summarizing the temperature values in a table using the Zonal Statistics As Table to create a table with the High Surface Temperature by Postcodes.
 
-
+The second step is including the tree canopy coverage. I went into ArcGIS Living Atlas and added the European Space Agency WorldCover 2020 Land Cover layer. It shows all geographic areas dominated by trees with a cover of 10 percent or more. Using the Raster Functions tool, the cells are isolated and grouped and then assigns and remaps them into a new value for a new layer to be created. Next up is to calculate tree canopy coverage and set the boundaries to the study area of Athens. I did the same process of utilizing the Copy Raster and Zonal Statistics As Table tools akin to the Multispectral layer with correct settings to create a new raster layer and table to count the number of tree cover cells in each postcode region. I calculated the tree canopy as a percentage by using the Calculate Field tool and created a new field on the table to reflect that as well as percentage of the tree canopy that is lacking using calculations to reflect that.
 
 
 
