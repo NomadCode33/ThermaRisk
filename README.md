@@ -3,7 +3,7 @@ An interactive map illustrating the intensity of heat across various areas in At
 
 **Link to project:** http://recruiters-love-seeing-live-demos.com/
 
-![alt tag](http://placecorgi.com/1200/650)
+<img alt = "Heat Map GIF" img src="./Athens Heat Risk Index_EmekaEmeche (3).gif"/>
 
 ## How It's Made:
 
