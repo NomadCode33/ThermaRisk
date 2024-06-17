@@ -1,0 +1,35 @@
+{
+  "version" : 1,
+  "name" : "Raster Functions History",
+  "historyItems" : [
+    {
+      "id" : "{14A62774-F8E9-4BE1-AF02-D9D48682D94C}",
+      "type" : 1,
+      "status" : 2,
+      "name" : "Remap",
+      "description" : "Changes pixel values by assigning new values to ranges of pixel values or using an external table.",
+      "rftPath" : "Remap_{14A62774-F8E9-4BE1-AF02-D9D48682D94C}.rft.xml",
+      "startTime" : "638529701480000000",
+      "endTime" : "638529701480000000",
+      "remoteJobStateInfo" : {
+        "ID" : "_lcljob",
+        "Status" : 5,
+        "ReturnValue" : "",
+        "Messages" : [
+          {
+            "Text" : "Submitted.",
+            "Type" : 0
+          },
+          {
+            "Text" : "Executing...",
+            "Type" : 0
+          },
+          {
+            "Text" : "Succeeded.",
+            "Type" : 0
+          }
+        ]
+      }
+    }
+  ]
+}
