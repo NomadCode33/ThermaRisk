@@ -19,9 +19,11 @@ The third step is calculating population density. I added a new column for popul
 
 ## Lessons Learned:
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *wow I actually did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
+The key takeaway from this project was the invaluable experience of utilizing ArcGIS Living Atlas. This resource offers a vast array of data, from thermal imagery to other types of visualization data, enabling effective storytelling through clean, filtered presentations. I vividly remember thinking, "Wow, I'm really working with extensive land surface temperature data and refining it into manageable sizes." This realization was exhilarating, as it showcased how I can apply my skills to tackle significant issues like this.
+
+I also learned the importance of meticulously filtering data and converting it into specific formats to enhance interactivity and usability. This project underscored how time-consuming the process can be, which encouraged me to take my time and be intentional with every action. This careful, deliberate approach ensures accuracy and effectiveness in my work.
 
 ## Examples:
 Take a look at these couple examples that I have in my own portfolio:
 
-**Palettable:** https://github.com/alecortega/palettable
+**City of Miami Beach Sea Level Rise:** https://github.com/T3ch12et/3D-Miami-Beach-Sea-Level-Rise/tree/main
