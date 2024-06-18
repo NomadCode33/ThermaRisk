@@ -1,8 +1,6 @@
 # Athens Heat Risk Index
 An interactive map illustrating the intensity of heat across various areas in Athens, Greece. Designed to aid in implementing preventative measures for cooling the city and enhancing its resilience.
 
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
-
 <img alt = "Heat Map GIF" img src="./Athens Heat Risk Index_EmekaEmeche (3).gif"/>
 
 ## How It's Made:
