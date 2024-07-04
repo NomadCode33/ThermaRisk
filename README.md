@@ -22,7 +22,7 @@ The key takeaway from this project was the invaluable experience of utilizing Ar
 I also learned the importance of meticulously filtering data and converting it into specific formats to enhance interactivity and usability. This project underscored how time-consuming the process can be, which encouraged me to take my time and be intentional with every action. This careful, deliberate approach ensures accuracy and effectiveness in my work.
 
 ## Repositories
-**Profile:** https://github.com/T3ch12et <br>
+**Profile:** [T3ch12et](https://github.com/T3ch12et) <br>
 **GIS Climate Action Repository:** [ESRI MOOC GIS for Climate Action](https://github.com/T3ch12et/GIS-Data-Science-Portfolio/tree/main/ESRI-MOOC-GIS-for-Climate-Action) <br>
 **Main Repository:** [GIS Data Science Portfolio](https://github.com/T3ch12et/GIS-Data-Science-Portfolio)
 
