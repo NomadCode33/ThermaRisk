@@ -7,13 +7,13 @@ An interactive map illustrating the intensity of heat across various areas in At
 
 **Tech used:** ArcGIS Pro, ArcGIS Online, ArcGIS Living Atlas of the World, ArcGIS Spatial Analyst extension
 
-The first step was to obtain the land surface temperature using a Multispectral Landsat imagery layer from ArcGIS Living Atlas. I set the study area to Athens, Greece, zoomed into the GRC_Postcodes3 layer, accessed the attributes layer, filtered out postcodes that could skew the data, and removed them accordingly. Using the Copy Features tool, I created a new layer called Athens_Postcodes with the remaining postcodes.
+The project began with obtaining land surface temperature data using a Multispectral Landsat imagery layer from the ArcGIS Living Atlas. I focused on Athens, Greece, zooming into the GRC_Postcodes3 layer, and filtered out postcodes that could skew the data. Using the Copy Features tool, I created a new layer named Athens_Postcodes with only the relevant data.
 
-Creating a Heat Risk Index involves three steps. The first step is assessing land surface temperature. The Multispectral Landsat layer, containing decades of thermal energy data, was adjusted to display Band 10 Surface Temperature in Celsius via the Processing Templates tab. I set the Mosaic tab's operator to 'Mean' and applied a Definition Query to filter out images with cloud cover greater than 5% (_Where Cloud Cover is less than or equal to 0.05_). This ensured accuracy by excluding cloud and shadow interference. I then customized the Symbology layer, using dark purple for cooler areas and orange/yellow for hotter areas. To define the study area, I filtered by the extent of the Athens_Postcodes layer, used the Copy Raster tool to create a new layer for Athens, and summarized temperature values with the Zonal Statistics As Table tool to generate a table of High Surface Temperature by Postcodes.
+Creating a Heat Risk Index (HRI) involved three main steps. First, I assessed the land surface temperature. The Multispectral Landsat layer, which contains decades of thermal data, was configured to display Band 10 Surface Temperature in Celsius using the Processing Templates tab. To ensure accuracy, I set the Mosaic tab's operator to 'Mean' and applied a Definition Query to exclude images with more than 5% cloud cover. I customized the Symbology layer, using dark purple for cooler areas and orange/yellow for hotter ones. The study area was defined by the Athens_Postcodes layer. I used the Copy Raster tool to create a new Athens temperature layer and summarized the values using the Zonal Statistics As Table tool, generating a table of high surface temperatures by postcode.
 
-The second step involves tree canopy coverage. I added the European Space Agency WorldCover 2020 Land Cover layer from ArcGIS Living Atlas, which shows geographic areas with 10% or more tree cover. Using the Raster Functions tool, I isolated and grouped cells, assigning and remapping them to create a new layer. I calculated tree canopy coverage, set the study area's boundaries, and used the Copy Raster and Zonal Statistics As Table tools to create a new raster layer and table, counting tree cover cells in each postcode region. I then calculated the tree canopy percentage using the Calculate Field tool, creating a new field in the table to reflect the percentage of tree canopy present and the percentage lacking.
+The second step involved analyzing tree canopy coverage. I added the European Space Agency WorldCover 2020 Land Cover layer, which identifies areas with at least 10% tree cover. I used the Raster Functions tool to isolate and group these cells, creating a new layer that mapped tree coverage across Athens. I calculated the tree canopy percentage using the Calculate Field tool, reflecting areas with and without sufficient tree cover.
 
-The third step is calculating population density. I added a new column for population density in the Athens_Postcodes layer. I then combined the three input variables—land surface temperature, tree canopy coverage, and population density—using the Join Field tool. The Standardized Field tool was used to ensure all input variables had consistent measurement types. Finally, I visualized the heat map using the Expression Builder tool with Arcade code, symbolizing the map of Athens based on the sum of the HRI values for each input variable. I adjusted transparency to emphasize heat effects and published the map on ArcGIS Online for public viewing.
+The third step was to calculate population density. I added a new column for population density in the Athens_Postcodes layer and combined the three input variables—land surface temperature, tree canopy coverage, and population density—using the Join Field tool. I standardized the data with the Standardized Field tool, ensuring consistent measurement types across all variables. Finally, I visualized the Heat Risk Index map with the Expression Builder tool using Arcade code, symbolizing Athens based on the sum of the HRI values. Adjusting transparency helped to emphasize heat effects. The map was then published on ArcGIS Online, making it available for public viewing and engagement. This project taught me the importance of data accuracy, methodological rigor, and clear communication when addressing complex environmental issues.
 
 ## Lessons Learned:
 
@@ -22,11 +22,11 @@ The key takeaway from this project was the invaluable experience of utilizing Ar
 I also learned the importance of meticulously filtering data and converting it into specific formats to enhance interactivity and usability. This project underscored how time-consuming the process can be, which encouraged me to take my time and be intentional with every action. This careful, deliberate approach ensures accuracy and effectiveness in my work.
 
 ## Repositories
-**Profile:** [T3ch12et](https://github.com/T3ch12et)
+**Profile:** https://github.com/T3ch12et
 
 **GIS Climate Action Repository:** [ESRI MOOC GIS for Climate Action](https://github.com/T3ch12et/GIS-Data-Science-Portfolio/tree/main/ESRI-MOOC-GIS-for-Climate-Action)
 
-**Main Repository:** [GIS Data Science Portfolio](https://github.com/T3ch12et/GIS-Data-Science-Portfolio)
+**Main Repository:** https://github.com/T3ch12et/GIS-Data-Science-Portfolio
 
 ## Examples:
 Take a look at these couple examples that I have in my own portfolio:
