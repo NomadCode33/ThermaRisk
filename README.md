@@ -24,15 +24,15 @@ I also learned the importance of meticulously filtering data and converting it i
 ## Examples:
 Take a look at these couple examples that I have in my own portfolio:
 
-**Coral Reef Dashboard:** [Coral Reef Dashboard](https://github.com/T3ch12et/GIS-Data-Science-Portfolio/tree/main/ESRI-MOOC-GIS-for-Climate-Action/Coral-Reef-Dashboard)
+**Coral Reef Dashboard:** [Coral Reef Dashboard](https://github.com/NomadCode33/GIS-Data-Science-Portfolio/tree/main/ESRI-MOOC-GIS-for-Climate-Action/Coral-Reef-Dashboard)
 
-**Sumner Boundary Map:** [Sumner Boundary Map](https://github.com/T3ch12et/GIS-Data-Science-Portfolio/tree/main/Furtado-and-Associates-Projects/Sumner%20Boundary%20Map)
+**Sumner Boundary Map:** [Sumner Boundary Map](https://github.com/NomadCode33/GIS-Data-Science-Portfolio/tree/main/Furtado-and-Associates-Projects/Sumner%20Boundary%20Map)
 
-**Climate Change Report:** [Climate Change Report](https://github.com/T3ch12et/GIS-Data-Science-Portfolio/tree/main/Climate-Change/project-report-saejinm)
+**Climate Change Report:** [Climate Change Report](https://github.com/NomadCode33/GIS-Data-Science-Portfolio/tree/main/Climate-Change/project-report-saejinm)
 
 ## Repositories
-**Profile:** https://github.com/T3ch12et
+**Profile:** https://github.com/NomadCode33
 
-**GIS Climate Action Repository:** [ESRI MOOC GIS for Climate Action](https://github.com/T3ch12et/GIS-Data-Science-Portfolio/tree/main/ESRI-MOOC-GIS-for-Climate-Action)
+**GIS Climate Action Repository:** [ESRI MOOC GIS for Climate Action](https://github.com/NomadCode33/GIS-Data-Science-Portfolio/tree/main/ESRI-MOOC-GIS-for-Climate-Action)
 
-**Main Repository:** https://github.com/T3ch12et/GIS-Data-Science-Portfolio
+**Main Repository:** https://github.com/NomadCode33/GIS-Data-Science-Portfolio
