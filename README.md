@@ -1,5 +1,5 @@
-# Athens Heat Risk Index
-An interactive map illustrating the intensity of heat across various areas in Athens, Greece. Designed to aid in implementing preventative measures for cooling the city and enhancing its resilience.
+# ThermaRisk: Mapping Urban Heat Risk in Athens
+An interactive map illustrating the intensity of heat across various areas in Athens, Greece. Designed to support urban planners and policymakers in implementing targeted cooling strategies, such as prioritizing areas for tree planting, to enhance the city’s resilience to extreme heat events.
 
 <img alt = "Heat Map GIF" img src="./Athens Heat Risk Index_EmekaEmeche (3).gif"/>
 
@@ -24,15 +24,15 @@ I also learned the importance of meticulously filtering data and converting it i
 ## Examples:
 Take a look at these couple examples that I have in my own portfolio:
 
-**Coral Reef Dashboard:** [Coral Reef Dashboard](https://github.com/NomadCode33/GIS-Data-Science-Portfolio/tree/main/ESRI-MOOC-GIS-for-Climate-Action/Coral-Reef-Dashboard)
+**ReefWatch:** [ReefWatch: Coral Reef Health Monitoring Dashboard](https://github.com/NomadCode33/NomadGeo/tree/main/GreenMap%20Initiative/ReefWatch)
 
-**Sumner Boundary Map:** [Sumner Boundary Map](https://github.com/NomadCode33/GIS-Data-Science-Portfolio/tree/main/Furtado-and-Associates-Projects/Sumner%20Boundary%20Map)
+**Sumner Jurisdiction Boundary:** [Sumner Jurisdiction Boundary](https://github.com/NomadCode33/NomadGeo/tree/main/Furtado-Associates-Projects/Sumner%20Jurisdiction%20Boundary)
 
-**Climate Change Report:** [Climate Change Report](https://github.com/NomadCode33/GIS-Data-Science-Portfolio/tree/main/Climate-Change/project-report-saejinm)
+**EcoPulse Report:** [EcoPulse Climate Analysis Report](https://github.com/NomadCode33/NomadGeo/tree/main/EcoPulse/EcoPulse%20Climate%20Analysis%20Report)
 
 ## Repositories
-**Profile:** https://github.com/NomadCode33
+**Profile:** [NomadCode33](https://github.com/NomadCode33)
 
-**GIS Climate Action Repository:** [ESRI MOOC GIS for Climate Action](https://github.com/NomadCode33/GIS-Data-Science-Portfolio/tree/main/ESRI-MOOC-GIS-for-Climate-Action)
+**Climate Action Repository:** [GreenMap Initiative](https://github.com/NomadCode33/NomadGeo/tree/main/GreenMap%20Initiative)
 
-**Main Repository:** https://github.com/NomadCode33/GIS-Data-Science-Portfolio
+**Main Repository:** [NomadGeo](https://github.com/NomadCode33/NomadGeo)
